@@ -27,6 +27,9 @@
 
     <q-drawer show-if-above v-model="rightDrawerOpen" side="right" bordered>
       <!-- drawer content -->
+      <q-avatar class="q-mt-md">
+        <img src="https://cdn.quasar.dev/img/avatar.png" />
+      </q-avatar>
     </q-drawer>
 
     <q-page-container>
