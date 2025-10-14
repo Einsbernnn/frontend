@@ -3,12 +3,12 @@
     <q-header elevated class="bg-primary text-white" height-hint="98">
       <q-toolbar>
         <q-btn dense flat round icon="menu" @click="toggleLeftDrawer" />
-
+        <!-- Header content -->
         <q-toolbar-title>
           <q-avatar>
-            <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" />
+          <img src="../assets/polaroid-svgrepo-com.svg" />
           </q-avatar>
-          Title
+          Title ss
         </q-toolbar-title>
 
         <q-btn dense flat round icon="menu" @click="toggleRightDrawer" />
@@ -38,11 +38,12 @@
 
     <q-footer reveal elevated class="bg-grey-8 text-white">
       <q-toolbar>
+        <!-- Footer content -->
         <q-toolbar-title>
           <q-avatar>
-            <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" />
+            <img src="../assets/polaroid-svgrepo-com.svg" />
           </q-avatar>
-          <div>Title</div>
+          <div>Title FOOTER</div>
         </q-toolbar-title>
       </q-toolbar>
     </q-footer>
