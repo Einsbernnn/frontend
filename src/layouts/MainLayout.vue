@@ -8,16 +8,17 @@
           <q-avatar>
           <img src="../assets/polaroid-svgrepo-com.svg" />
           </q-avatar>
-          Title ss
+            MOMENTO
         </q-toolbar-title>
 
         <q-btn dense flat round icon="menu" @click="toggleRightDrawer" />
       </q-toolbar>
 
       <q-tabs align="left">
-        <q-route-tab to="/page-one" label="Page One" />
-        <q-route-tab to="/page-two" label="Page Two" />
-        <q-route-tab to="/page-three" label="Page Three" />
+        <q-route-tab to="/home-page" label="HOME" />
+        <q-route-tab to="/gallery-page" label="GALLERY" />
+        <q-route-tab to="/memories-page" label="MEMORIES" />
+        <q-route-tab to="/milestone-page" label="MILESTONE" />
       </q-tabs>
     </q-header>
 
@@ -43,7 +44,7 @@
           <q-avatar>
             <img src="../assets/polaroid-svgrepo-com.svg" />
           </q-avatar>
-          <div>Title FOOTER</div>
+          <div>MOMENTO</div>
         </q-toolbar-title>
       </q-toolbar>
     </q-footer>
