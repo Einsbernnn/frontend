@@ -1,8 +1,7 @@
 <template>
-  <q-layout view="hHh LpR lFr">
+  <q-layout q-layout view="lhr lpr lFr">
     <q-header elevated class="bg-primary text-white" height-hint="98">
       <q-toolbar>
-        <q-btn dense flat round icon="menu" @click="toggleLeftDrawer" />
         <!-- Header content -->
         <q-toolbar-title>
           <q-avatar>
@@ -15,16 +14,14 @@
       </q-toolbar>
 
       <q-tabs align="left">
-        <q-route-tab to="/home-page" label="HOME" />
-        <q-route-tab to="/gallery-page" label="GALLERY" />
-        <q-route-tab to="/memories-page" label="MEMORIES" />
-        <q-route-tab to="/milestone-page" label="MILESTONE" />
-      </q-tabs>
-    </q-header>
+        <q-route-tab to="/home-page" icon="home" label="HOME" />
+    <q-route-tab to="/gallery-page" icon="photo_library" label="GALLERY" />
+    <q-route-tab to="/memories-page" icon="favorite" label="MEMORIES" />
+    <q-route-tab to="/milestone-page" icon="flag" label="MILESTONE" />
+  </q-tabs>
+</q-header>
 
-    <q-drawer show-if-above v-model="leftDrawerOpen" side="left" bordered>
-      <!-- drawer content -->
-    </q-drawer>
+
 
     <q-drawer show-if-above v-model="rightDrawerOpen" side="right" bordered>
       <!-- drawer content -->
@@ -37,7 +34,7 @@
       <router-view />
     </q-page-container>
 
-    <q-footer reveal elevated class="bg-grey-8 text-white">
+    <q-footer reveal elevated class="bg-secondary text-white" height-hint="98">
       <q-toolbar>
         <!-- Footer content -->
         <q-toolbar-title>
