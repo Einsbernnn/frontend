@@ -1,1 +1,44 @@
 // app global css in SCSS form
+
+/* === Main Font: Ranchers === */
+@font-face {
+  font-family: 'Ranchers';
+  src: url('~assets/fonts/ranchers-v19-latin-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* === Secondary Font: Rancho === */
+@font-face {
+  font-family: 'Rancho';
+  src: url('~assets/fonts/rancho-v22-latin-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* === Global Typography === */
+body {
+  font-family: 'Ranchers', cursive;
+  color: #1a1a1a;
+}
+
+/* Use Rancho for headings, titles, or logos */
+h1, h2, h3, h4, h5, h6,
+.q-toolbar-title, .q-card__title {
+  font-family: 'Rancho', cursive;
+  letter-spacing: 0.5px;
+}
+
+/* Add at bottom of app.scss */
+.font-secondary {
+  font-family: 'Rancho', cursive !important;
+
+  /* Prevent icon font override */
+  i,
+  .material-icons,
+  .q-icon {
+    font-family: 'Material Icons' !important;
+  }
+}

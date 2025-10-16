@@ -14,10 +14,10 @@
       </q-toolbar>
 
       <q-tabs align="left">
-<q-route-tab to="/home-page" icon="home" label="HOME" class="text-blue" />
-<q-route-tab to="/gallery-page" icon="photo_library" label="GALLERY" class="text-teal" />
-<q-route-tab to="/memories-page" icon="favorite" label="MEMORIES" class="text-pink" />
-<q-route-tab to="/milestone-page" icon="flag" label="MILESTONE" class="text-orange" />
+<q-route-tab to="/home-page" icon="home" label="HOME" class="text-dark font-secondary" />
+<q-route-tab to="/gallery-page" icon="photo_library" label="GALLERY" class="text-dark font-secondary" />
+<q-route-tab to="/memories-page" icon="favorite" label="MEMORIES" class="text-dark font-secondary" />
+<q-route-tab to="/milestone-page" icon="flag" label="MILESTONE" class="text-dark font-secondary" />
   </q-tabs>
 </q-header>
 
