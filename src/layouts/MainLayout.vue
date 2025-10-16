@@ -34,7 +34,7 @@
       <router-view />
     </q-page-container>
 
-    <q-footer reveal elevated class="bg-secondary text-white" height-hint="98">
+    <q-footer reveal elevated class="bg-primary text-white" height-hint="98">
       <q-toolbar>
         <!-- Footer content -->
         <q-toolbar-title>

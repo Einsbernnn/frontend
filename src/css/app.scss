@@ -32,13 +32,14 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /* Add at bottom of app.scss */
-.font-secondary {
-  font-family: 'Rancho', cursive !important;
+.q-header .font-secondary, .q-toolbar .font-secondary {
+  /* Higher specificity than a plain .font-secondary, avoid using !important */
+  font-family: 'Rancho', cursive;
 
-  /* Prevent icon font override */
+  /* Prevent icon font override inside header/tabs (keep specificity focused) */
   i,
   .material-icons,
   .q-icon {
-    font-family: 'Material Icons' !important;
+    font-family: 'Material Icons';
   }
 }
