@@ -1,9 +1,9 @@
 <template>
   <q-layout q-layout view="lhr lpr lFr">
     <q-header elevated class="bg-primary text-white" height-hint="98">
-      <q-toolbar>
+      <q-toolbar class="justify-center">
         <!-- Header content -->
-        <q-toolbar-title>
+        <q-toolbar-title class="font-primary text-xxl text-black center">
           <q-avatar>
           <img src="../assets/polaroid-svgrepo-com.svg" />
           </q-avatar>

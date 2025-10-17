@@ -43,3 +43,21 @@ h1, h2, h3, h4, h5, h6,
     font-family: 'Material Icons';
   }
 }
+
+/* === Global Styles === */
+:root {
+  --font-xs: 0.75rem;   /* 12px */
+  --font-sm: 0.875rem;  /* 14px */
+  --font-md: 1rem;      /* 16px */
+  --font-lg: 1.25rem;   /* 20px */
+  --font-xl: 1.5rem;    /* 24px */
+  --font-xxl: 2rem;     /* 32px */
+}
+
+/* Text classes */
+.text-xs   { font-size: var(--font-xs) !important; }
+.text-sm   { font-size: var(--font-sm) !important; }
+.text-md   { font-size: var(--font-md) !important; }
+.text-lg   { font-size: var(--font-lg) !important; }
+.text-xl   { font-size: var(--font-xl) !important; }
+.text-xxl  { font-size: var(--font-xxl) !important; }
